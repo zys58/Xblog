@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Xblog</title>
   <subtitle>A powerful and fast blog system powered by laravel 5.3.</subtitle>
-  <link href="/laravel-blog/atom.xml" rel="self"/>
+  <link href="/Xblog/atom.xml" rel="self"/>
   
   <link href="https://lufficc.github.io/Xblog/"/>
   <updated>2016-09-29T08:55:29.000Z</updated>

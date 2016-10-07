@@ -53,27 +53,16 @@
 
 
 
-title
-网站标题
+SITE_NAME
+网站名称, 发邮件时用到
 
 
-subtitle
-网站副标题
+EMAIL
+当有人评论你的文章时的目的邮件地址, 覆盖管理员邮箱。可以忽略, 忽略时采用你注册时的邮箱。
 
 
-description
-网站描述
-
-
-author
-您的名字
-
-
-language
-网站使用的语言
-
-
-timezon">
+AVATAR
+采用">
 <meta property="og:type" content="website">
 <meta property="og:title" content="配置">
 <meta property="og:url" content="https://lufficc.github.io/Xblog/docs/configuration.html">
@@ -90,28 +79,17 @@ timezon">
 
 
 
-title
-网站标题
+SITE_NAME
+网站名称, 发邮件时用到
 
 
-subtitle
-网站副标题
+EMAIL
+当有人评论你的文章时的目的邮件地址, 覆盖管理员邮箱。可以忽略, 忽略时采用你注册时的邮箱。
 
 
-description
-网站描述
-
-
-author
-您的名字
-
-
-language
-网站使用的语言
-
-
-timezon">
-<meta property="og:updated_time" content="2016-10-07T02:15:32.000Z">
+AVATAR
+采用">
+<meta property="og:updated_time" content="2016-10-07T02:32:04.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="配置">
 <meta name="twitter:description" content="您可以在 .env 中修改大部份的配置。
@@ -126,27 +104,16 @@ timezon">
 
 
 
-title
-网站标题
+SITE_NAME
+网站名称, 发邮件时用到
 
 
-subtitle
-网站副标题
+EMAIL
+当有人评论你的文章时的目的邮件地址, 覆盖管理员邮箱。可以忽略, 忽略时采用你注册时的邮箱。
 
 
-description
-网站描述
-
-
-author
-您的名字
-
-
-language
-网站使用的语言
-
-
-timezon">
+AVATAR
+采用">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
   
@@ -215,28 +182,72 @@ timezon">
 </thead>
 <tbody>
 <tr>
-<td><code>title</code></td>
-<td>网站标题</td>
+<td><code>SITE_NAME</code></td>
+<td>网站名称, 发邮件时用到</td>
 </tr>
 <tr>
-<td><code>subtitle</code></td>
-<td>网站副标题</td>
+<td><code>EMAIL</code></td>
+<td>当有人评论你的文章时的目的邮件地址, 覆盖管理员邮箱。可以忽略, 忽略时采用你注册时的邮箱。</td>
 </tr>
 <tr>
-<td><code>description</code></td>
-<td>网站描述</td>
+<td><code>AVATAR</code></td>
+<td>采用自带评论时或者用户注册的默认头像URL地址。</td>
 </tr>
 <tr>
-<td><code>author</code></td>
-<td>您的名字</td>
+<td><code>QINIU_AK</code></td>
+<td>七牛云存储的AccessKey, 建议申请, 否则图片保存到本地是个不小的开销。</td>
 </tr>
 <tr>
-<td><code>language</code></td>
-<td>网站使用的语言</td>
+<td><code>QINIU_SK</code></td>
+<td>七牛云存储的SecretKey</td>
 </tr>
 <tr>
-<td><code>timezone</code></td>
-<td>网站时区。Hexo 默认使用您电脑的时区。<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank" rel="external">时区列表</a>。比如说：<code>America/New_York</code>, <code>Japan</code>, 和 <code>UTC</code> 。</td>
+<td><code>QINIU_BUCKET</code></td>
+<td>您的七牛BUCKET名字</td>
+</tr>
+<tr>
+<td><code>QINIU_DEFAULT_DOMAIN</code></td>
+<td>您的七牛域名,格式为<a href="http://*.*.*.*" target="_blank" rel="external">http://*.*.*.*</a></td>
+</tr>
+<tr>
+<td><code>QINIU_HTTPS_DOMAIN</code></td>
+<td>您自定义的七牛HTTPS域名, 和上者选其一, 格式为<a href="https://*.*.*/" target="_blank" rel="external">https://*.*.*/</a></td>
+</tr>
+<tr>
+<td><code>QINIU_CUSTOM_DOMAIN</code></td>
+<td>自定义域名, 可以忽略</td>
+</tr>
+<tr>
+<td><code>GITHUB_CLIENT_ID</code></td>
+<td>Github client_id, 如果你允许Github用户注册你的站点,请填写, 否则忽略。</td>
+</tr>
+<tr>
+<td><code>GITHUB_CLIENT_SECRET</code></td>
+<td>Github client_secret, 同上。</td>
+</tr>
+<tr>
+<td><code>GITHUB_REDIRECT</code></td>
+<td>Github redirect, 同上。</td>
+</tr>
+<tr>
+<td><code>ALGOLIA_APP_ID</code></td>
+<td>如果你使用algolia的搜索服务, 请填写。</td>
+</tr>
+<tr>
+<td><code>ALGOLIA_SECRET</code></td>
+<td>同上。</td>
+</tr>
+<tr>
+<td> <code>CACHE_DRIVER</code></td>
+<td>默认为Redis, 建议为Redis。</td>
+</tr>
+<tr>
+<td> <code>SESSION_DRIVER</code></td>
+<td>默认为Redis, 建议为Redis。</td>
+</tr>
+<tr>
+<td> <code>QUEUE_DRIVER</code></td>
+<td>默认为Redis, 建议为Redis。</td>
 </tr>
 </tbody>
 </table>
@@ -480,7 +491,7 @@ timezon">
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2016-10-07T02:15:32.000Z" itemprop="dateModified">上次更新：2016-10-07</time>
+                <time class="article-footer-updated" datetime="2016-10-07T02:32:04.000Z" itemprop="dateModified">上次更新：2016-10-07</time>
                 <a href="setup.html" class="article-footer-prev" title="建站"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="commands.html" class="article-footer-next" title="命令"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
               

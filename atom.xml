@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Laravel-blog</title>
-  <subtitle>A fast and powerful blog system powered by laravel 5.3.</subtitle>
+  <title>Xblog</title>
+  <subtitle>A powerful and fast blog system powered by laravel 5.3.</subtitle>
   <link href="/laravel-blog/atom.xml" rel="self"/>
   
-  <link href="https://lufficc.github.io/laravel-blog/"/>
+  <link href="https://lufficc.github.io/Xblog/"/>
   <updated>2016-09-29T08:55:29.000Z</updated>
-  <id>https://lufficc.github.io/laravel-blog/</id>
+  <id>https://lufficc.github.io/Xblog/</id>
   
   <author>
     <name>lufficc</name>
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hexo 3.2 Released</title>
-    <link href="https://lufficc.github.io/laravel-blog/news/2016/02/28/hexo-3-2-released/"/>
-    <id>https://lufficc.github.io/laravel-blog/news/2016/02/28/hexo-3-2-released/</id>
+    <link href="https://lufficc.github.io/Xblog/news/2016/02/28/hexo-3-2-released/"/>
+    <id>https://lufficc.github.io/Xblog/news/2016/02/28/hexo-3-2-released/</id>
     <published>2016-02-28T00:00:00.000Z</published>
     <updated>2016-09-29T08:55:29.000Z</updated>
     

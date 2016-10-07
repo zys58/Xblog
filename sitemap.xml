@@ -2,336 +2,336 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/index.html</loc>
     
     <lastmod>2016-10-04T13:37:48.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/index.html</loc>
     
     <lastmod>2016-10-04T13:06:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/index.html</loc>
     
     <lastmod>2016-10-04T12:43:09.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/commands.html</loc>
+    <loc>https://lufficc.github.io/Xblog/plugins/index.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/configuration.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/configuration.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/contributing.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/data-files.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/data-files.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/contributing.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/deployment.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/deployment.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/front-matter.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/front-matter.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/generating.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/generating.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/helpers.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/internationalization.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/laravel-blog/news/2016/02/28/hexo-3-2-released/</loc>
+    <loc>https://lufficc.github.io/Xblog/laravel-blog/news/2016/02/28/hexo-3-2-released/</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/internationalization.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/helpers.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/migration.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/permalinks.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/permalinks.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/plugins.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/plugins.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/server.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/server.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/templates.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/setup.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/tag-plugins.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/tag-plugins.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/setup.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/templates.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/troubleshooting.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/themes.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/themes.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/troubleshooting.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/variables.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/variables.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/writing.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/writing.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/asset-folders.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/docs/asset-folders.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/commands.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/plugins/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/themes/index.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/themes/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/migration.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/commands.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/asset-folders.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/configuration.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/commands.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/asset-folders.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/deployment.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/contributing.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/data-files.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/data-files.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/configuration.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/deployment.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/generating.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/generating.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/helpers.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/front-matter.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/front-matter.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/index.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/helpers.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/internationalization.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/internationalization.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/contributing.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/migration.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/migration.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/permalinks.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/permalinks.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/plugins.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/plugins.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/server.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/server.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/setup.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/setup.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/templates.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/tag-plugins.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/tag-plugins.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/templates.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/themes.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/themes.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/troubleshooting.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/troubleshooting.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/laravel-blog/en/docs/variables.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/variables.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     

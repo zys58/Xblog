@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/index.html</loc>
     
-    <lastmod>2016-10-04T13:37:48.000Z</lastmod>
+    <lastmod>2016-10-07T01:05:12.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/index.html</loc>
     
-    <lastmod>2016-10-04T13:06:49.000Z</lastmod>
+    <lastmod>2016-10-04T13:37:48.000Z</lastmod>
     
   </url>
   
@@ -23,21 +23,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/writing.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/docs/asset-folders.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://lufficc.github.io/Xblog/docs/commands.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/docs/configuration.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -100,14 +93,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/permalinks.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/migration.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/migration.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/permalinks.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -170,7 +163,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/configuration.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/writing.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/docs/asset-folders.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -212,14 +212,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/data-files.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/contributing.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/contributing.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/data-files.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -261,7 +261,7 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/permalinks.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/internationalization.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -275,7 +275,7 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/internationalization.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/permalinks.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     

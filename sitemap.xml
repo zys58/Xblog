@@ -4,7 +4,21 @@
   <url>
     <loc>https://lufficc.github.io/Xblog/docs/configuration.html</loc>
     
-    <lastmod>2016-10-07T02:32:04.000Z</lastmod>
+    <lastmod>2016-10-08T10:17:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/docs/index.html</loc>
+    
+    <lastmod>2016-10-08T10:17:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/index.html</loc>
+    
+    <lastmod>2016-10-07T02:38:11.000Z</lastmod>
     
   </url>
   
@@ -12,20 +26,6 @@
     <loc>https://lufficc.github.io/Xblog/docs/setup.html</loc>
     
     <lastmod>2016-10-07T02:12:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/docs/index.html</loc>
-    
-    <lastmod>2016-10-07T02:07:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/index.html</loc>
-    
-    <lastmod>2016-10-07T01:05:12.000Z</lastmod>
     
   </url>
   
@@ -44,21 +44,7 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/contributing.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/docs/data-files.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/docs/deployment.html</loc>
+    <loc>https://lufficc.github.io/Xblog/Xblog/news/2016/02/28/hexo-3-2-released/</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -72,14 +58,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/generating.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/deployment.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/docs/helpers.html</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/generating.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -94,6 +80,13 @@
   
   <url>
     <loc>https://lufficc.github.io/Xblog/docs/internationalization.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/docs/helpers.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -170,7 +163,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/Xblog/news/2016/02/28/hexo-3-2-released/</loc>
+    <loc>https://lufficc.github.io/Xblog/docs/contributing.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/docs/data-files.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -191,13 +191,6 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/commands.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://lufficc.github.io/Xblog/en/docs/asset-folders.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
@@ -205,7 +198,7 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/contributing.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/commands.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -213,6 +206,13 @@
   
   <url>
     <loc>https://lufficc.github.io/Xblog/en/docs/configuration.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/en/docs/contributing.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -233,14 +233,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/front-matter.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/generating.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/generating.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/front-matter.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -254,14 +254,14 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/index.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/internationalization.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/internationalization.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/index.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -275,28 +275,7 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/permalinks.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://lufficc.github.io/Xblog/en/docs/plugins.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/tag-plugins.html</loc>
-    
-    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/templates.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -310,6 +289,20 @@
   </url>
   
   <url>
+    <loc>https://lufficc.github.io/Xblog/en/docs/permalinks.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/en/docs/tag-plugins.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lufficc.github.io/Xblog/en/docs/setup.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
@@ -317,7 +310,7 @@
   </url>
   
   <url>
-    <loc>https://lufficc.github.io/Xblog/en/docs/themes.html</loc>
+    <loc>https://lufficc.github.io/Xblog/en/docs/templates.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     
@@ -332,6 +325,13 @@
   
   <url>
     <loc>https://lufficc.github.io/Xblog/en/docs/variables.html</loc>
+    
+    <lastmod>2016-09-29T08:55:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://lufficc.github.io/Xblog/en/docs/themes.html</loc>
     
     <lastmod>2016-09-29T08:55:29.000Z</lastmod>
     

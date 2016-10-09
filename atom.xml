@@ -5,7 +5,7 @@
   <link href="/Xblog/atom.xml" rel="self"/>
   
   <link href="https://lufficc.github.io/Xblog/"/>
-  <updated>2016-10-09T11:28:44.000Z</updated>
+  <updated>2016-10-09T12:50:04.000Z</updated>
   <id>https://lufficc.github.io/Xblog/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://lufficc.github.io/Xblog/news/2016/10/09/Screenshots/"/>
     <id>https://lufficc.github.io/Xblog/news/2016/10/09/Screenshots/</id>
     <published>2016-10-09T00:00:00.000Z</published>
-    <updated>2016-10-09T11:28:44.000Z</updated>
+    <updated>2016-10-09T12:50:04.000Z</updated>
     
     <content type="html"><![CDATA[<h2 id="主页"><a href="#主页" class="headerlink" title="主页"></a>主页</h2><p><img src="/Xblog/image/home.jpg" alt=""></p>
 <h2 id="文章主页"><a href="#文章主页" class="headerlink" title="文章主页"></a>文章主页</h2><p><img src="/Xblog/image/blog.jpg" alt=""></p>
@@ -28,6 +28,7 @@
 <h2 id="自带评论"><a href="#自带评论" class="headerlink" title="自带评论"></a>自带评论</h2><p><img src="/Xblog/image/comment.jpg" alt=""></p>
 <h2 id="多说"><a href="#多说" class="headerlink" title="多说"></a>多说</h2><p><img src="/Xblog/image/duoshuo.jpg" alt=""></p>
 <h2 id="Disqus"><a href="#Disqus" class="headerlink" title="Disqus"></a>Disqus</h2><p><img src="/Xblog/image/disqus.jpg" alt=""></p>
+<h2 id="邮件提醒"><a href="#邮件提醒" class="headerlink" title="邮件提醒"></a>邮件提醒</h2><p><img src="/Xblog/image/mail_noti.png" alt=""></p>
 <h2 id="后台主页"><a href="#后台主页" class="headerlink" title="后台主页"></a>后台主页</h2><p><img src="/Xblog/image/admin.jpg" alt=""></p>
 <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><p><img src="/Xblog/image/write.jpg" alt=""></p>
 <h2 id="写作-1"><a href="#写作-1" class="headerlink" title="写作"></a>写作</h2><p><img src="/Xblog/image/write_2.jpg" alt=""></p>

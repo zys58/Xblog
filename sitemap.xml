@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://lufficc.github.io/Xblog/docs/setup.html</loc>
+    
+    <lastmod>2016-10-09T13:04:59.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://lufficc.github.io/Xblog/Xblog/news/2016/10/09/Screenshots/</loc>
     
     <lastmod>2016-10-09T12:50:04.000Z</lastmod>
@@ -61,13 +68,6 @@
     <loc>https://lufficc.github.io/Xblog/en/docs/configuration.html</loc>
     
     <lastmod>2016-10-09T09:48:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://lufficc.github.io/Xblog/docs/setup.html</loc>
-    
-    <lastmod>2016-10-09T08:28:52.000Z</lastmod>
     
   </url>
   

@@ -2,7 +2,7 @@
 <html lang="en">
 <head prefix="og: http://ogp.me/ns#">
   <meta charset="utf-8">
-  <title>Configuration | Xblog</title>
+  <title>配置 | Xblog</title>
   <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Canonical links -->
@@ -41,82 +41,28 @@
   <!-- RSS -->
   <link rel="alternate" href="/Xblog/atom.xml" title="Xblog">
   <!-- Open Graph -->
-  <meta name="description" content="You can modify site settings in _config.yml.
-Site
-
-
-Setting
-Description
-
-
-
-
-title
-The title of your website
-
-
-subtitle
-The subtitle of your website
-
-
-description
-The description of your website
-
-
-auth">
+  <meta name="description" content="如果你已经将Xblog下载到本地,进入到目录:cd xblog, 更新依赖:$ composer update
+待所有依赖安装完毕, 进行配置。
+如果不存在.env文件, 复制.env.example文件命名为.env,然后运行php artisan key:generate生成随机key。
+您可以在 .env 中修改大部份的配置。
+.env下面是一些独有的配置, 其他配置和laravel一样。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Configuration">
+<meta property="og:title" content="配置">
 <meta property="og:url" content="https://lufficc.github.io/Xblog/en/docs/configuration.html">
 <meta property="og:site_name" content="Xblog">
-<meta property="og:description" content="You can modify site settings in _config.yml.
-Site
-
-
-Setting
-Description
-
-
-
-
-title
-The title of your website
-
-
-subtitle
-The subtitle of your website
-
-
-description
-The description of your website
-
-
-auth">
-<meta property="og:updated_time" content="2016-09-29T08:55:29.000Z">
+<meta property="og:description" content="如果你已经将Xblog下载到本地,进入到目录:cd xblog, 更新依赖:$ composer update
+待所有依赖安装完毕, 进行配置。
+如果不存在.env文件, 复制.env.example文件命名为.env,然后运行php artisan key:generate生成随机key。
+您可以在 .env 中修改大部份的配置。
+.env下面是一些独有的配置, 其他配置和laravel一样。">
+<meta property="og:updated_time" content="2016-10-09T09:48:36.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Configuration">
-<meta name="twitter:description" content="You can modify site settings in _config.yml.
-Site
-
-
-Setting
-Description
-
-
-
-
-title
-The title of your website
-
-
-subtitle
-The subtitle of your website
-
-
-description
-The description of your website
-
-
-auth">
+<meta name="twitter:title" content="配置">
+<meta name="twitter:description" content="如果你已经将Xblog下载到本地,进入到目录:cd xblog, 更新依赖:$ composer update
+待所有依赖安装完毕, 进行配置。
+如果不存在.env文件, 复制.env.example文件命名为.env,然后运行php artisan key:generate生成随机key。
+您可以在 .env 中修改大部份的配置。
+.env下面是一些独有的配置, 其他配置和laravel一样。">
 <meta property="fb:admins" content="100000247608790">
   <!-- Google Analytics -->
   
@@ -169,282 +115,131 @@ auth">
           <div class="article">
             <div class="inner">
               <header class="article-header">
-                <h1 class="article-title" itemprop="name">Configuration</h1>
+                <h1 class="article-title" itemprop="name">配置</h1>
                 <a href="https://github.com/hexojs/site/edit/master/source/en/docs/configuration.md" class="article-edit-link" title="Improve this doc"><i class="fa fa-pencil"></i></a>
               </header>
               <div class="article-content" itemprop="articleBody">
-                <p>You can modify site settings in <code>_config.yml</code>.</p>
-<h3 id="Site" class="article-heading"><a href="#Site" class="headerlink" title="Site"></a>Site<a class="article-anchor" href="#Site" aria-hidden="true"></a></h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>title</code></td>
-<td>The title of your website</td>
-</tr>
-<tr>
-<td><code>subtitle</code></td>
-<td>The subtitle of your website</td>
-</tr>
-<tr>
-<td><code>description</code></td>
-<td>The description of your website</td>
-</tr>
-<tr>
-<td><code>author</code></td>
-<td>Your name</td>
-</tr>
-<tr>
-<td><code>language</code></td>
-<td>The language of your website. Use a <a href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank" rel="external">2-lettter ISO-639-1 code</a>. Default is <code>en</code>.</td>
-</tr>
-<tr>
-<td><code>timezone</code></td>
-<td>The timezone of your website. Hexo uses the setting on your computer by default. You can find the list of available timezones <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones" target="_blank" rel="external">here</a>. Some examples are <code>America/New_York</code>, <code>Japan</code>, and <code>UTC</code>.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="URL" class="article-heading"><a href="#URL" class="headerlink" title="URL"></a>URL<a class="article-anchor" href="#URL" aria-hidden="true"></a></h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>url</code></td>
-<td>The URL of your website</td>
-<td></td>
-</tr>
-<tr>
-<td><code>root</code></td>
-<td>The root directory of your website</td>
-<td></td>
-</tr>
-<tr>
-<td><code>permalink</code></td>
-<td>The <a href="permalinks.html">permalink</a> format of articles</td>
-<td><code>:year/:month/:day/:title/</code></td>
-</tr>
-<tr>
-<td><code>permalink_default</code></td>
-<td>Default values of each segment in permalink</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<blockquote class="note info"><strong class="note-title">Website in subdirectory</strong><p>If your website is in a subdirectory (such as <code>http://example.org/blog</code>) set <code>url</code> to <code>http://example.org/blog</code> and set <code>root</code> to <code>/blog/</code>.</p>
-</blockquote>
-<h3 id="Directory" class="article-heading"><a href="#Directory" class="headerlink" title="Directory"></a>Directory<a class="article-anchor" href="#Directory" aria-hidden="true"></a></h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>source_dir</code></td>
-<td>Source folder. Where your content is stored</td>
-<td><code>source</code></td>
-</tr>
-<tr>
-<td><code>public_dir</code></td>
-<td>Public folder. Where the static site will be generated</td>
-<td><code>public</code></td>
-</tr>
-<tr>
-<td><code>tag_dir</code></td>
-<td>Tag directory</td>
-<td><code>tags</code></td>
-</tr>
-<tr>
-<td><code>archive_dir</code></td>
-<td>Archive directory</td>
-<td><code>archives</code></td>
-</tr>
-<tr>
-<td><code>category_dir</code></td>
-<td>Category directory</td>
-<td><code>categories</code></td>
-</tr>
-<tr>
-<td><code>code_dir</code></td>
-<td>Include code directory</td>
-<td><code>downloads/code</code></td>
-</tr>
-<tr>
-<td><code>i18n_dir</code></td>
-<td>i18n directory</td>
-<td><code>:lang</code></td>
-</tr>
-<tr>
-<td><code>skip_render</code></td>
-<td>Paths not to be rendered. You can use <a href="https://github.com/isaacs/minimatch" target="_blank" rel="external">glob expressions</a> for path matching</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="Writing" class="article-heading"><a href="#Writing" class="headerlink" title="Writing"></a>Writing<a class="article-anchor" href="#Writing" aria-hidden="true"></a></h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>new_post_name</code></td>
-<td>The filename format for new posts</td>
-<td><code>:title.md</code></td>
-</tr>
-<tr>
-<td><code>default_layout</code></td>
-<td>Default layout</td>
-<td><code>post</code></td>
-</tr>
-<tr>
-<td><code>titlecase</code></td>
-<td>Transform titles into title case?</td>
-<td><code>false</code></td>
-</tr>
-<tr>
-<td><code>external_link</code></td>
-<td>Open external links in new tab?</td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td><code>filename_case</code></td>
-<td>Transform filenames to <code>1</code> lower case; <code>2</code> upper case</td>
-<td><code>0</code></td>
-</tr>
-<tr>
-<td><code>render_drafts</code></td>
-<td>Display drafts?</td>
-<td><code>false</code></td>
-</tr>
-<tr>
-<td><code>post_asset_folder</code></td>
-<td>Enable the <a href="asset-folders.html">Asset Folder</a>?</td>
-<td><code>false</code></td>
-</tr>
-<tr>
-<td><code>relative_link</code></td>
-<td>Make links relative to the root folder?</td>
-<td><code>false</code></td>
-</tr>
-<tr>
-<td><code>future</code></td>
-<td>Display future posts?</td>
-<td><code>true</code></td>
-</tr>
-<tr>
-<td><code>highlight</code></td>
-<td>Code block settings</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="Category-amp-Tag" class="article-heading"><a href="#Category-amp-Tag" class="headerlink" title="Category &amp; Tag"></a>Category &amp; Tag<a class="article-anchor" href="#Category-amp-Tag" aria-hidden="true"></a></h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>default_category</code></td>
-<td>Default category</td>
-<td><code>uncategorized</code></td>
-</tr>
-<tr>
-<td><code>category_map</code></td>
-<td>Category slugs</td>
-<td></td>
-</tr>
-<tr>
-<td><code>tag_map</code></td>
-<td>Tag slugs</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<h3 id="Date-Time-format" class="article-heading"><a href="#Date-Time-format" class="headerlink" title="Date / Time format"></a>Date / Time format<a class="article-anchor" href="#Date-Time-format" aria-hidden="true"></a></h3><p>Hexo uses <a href="http://momentjs.com/" target="_blank" rel="external">Moment.js</a> to process dates.</p>
+                <p>如果你已经将Xblog下载到本地,进入到目录:<code>cd xblog</code>, 更新依赖:<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ composer update</div></pre></td></tr></table></figure></p>
+<p>待所有依赖安装完毕, 进行配置。</p>
+<p>如果不存在<code>.env</code>文件, 复制<code>.env.example</code>文件命名为<code>.env</code>,然后运行<code>php artisan key:generate</code>生成随机key。</p>
+<p>您可以在 <code>.env</code> 中修改大部份的配置。</p>
+<h2 id="env" class="article-heading"><a href="#env" class="headerlink" title=".env"></a><code>.env</code><a class="article-anchor" href="#env" aria-hidden="true"></a></h2><p>下面是一些独有的配置, 其他配置和laravel一样。</p>
 <table>
 <thead>
 <tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
+<th>参数</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>date_format</code></td>
-<td>Date format</td>
-<td><code>YYYY-MM-DD</code></td>
+<td><code>SITE_NAME</code></td>
+<td>网站名称, 发邮件时用到</td>
 </tr>
 <tr>
-<td><code>time_format</code></td>
-<td>Time format</td>
-<td><code>HH:mm:ss</code></td>
+<td><code>EMAIL</code></td>
+<td>当有人评论你的文章时的目的邮件地址, 覆盖管理员邮箱。可以忽略, 忽略时采用你注册时的邮箱。</td>
+</tr>
+<tr>
+<td><code>AVATAR</code></td>
+<td>采用自带评论时或者用户注册的默认头像URL地址。</td>
+</tr>
+<tr>
+<td><code>CACHE_ENABLE</code></td>
+<td>是否开启缓存,默认关闭。如果开启,请选择支持tag的缓存,如Redis,Memcached。[填写true,false]</td>
+</tr>
+<tr>
+<td><code>QINIU_AK</code></td>
+<td>七牛云存储的AccessKey, <strong> 务必填写,否则上传图片会失败 </strong>。</td>
+</tr>
+<tr>
+<td><code>QINIU_SK</code></td>
+<td>七牛云存储的SecretKey。</td>
+</tr>
+<tr>
+<td><code>QINIU_BUCKET</code></td>
+<td>您的七牛BUCKET名字。</td>
+</tr>
+<tr>
+<td><code>QINIU_DEFAULT_DOMAIN</code></td>
+<td>您的七牛域名,格式为<a href="http://*.*.*.*" target="_blank" rel="external">http://*.*.*.*</a></td>
+</tr>
+<tr>
+<td><code>QINIU_HTTPS_DOMAIN</code></td>
+<td>您自定义的七牛HTTPS域名, 和上者选其一, 格式为<a href="https://*.*.*/" target="_blank" rel="external">https://*.*.*/</a></td>
+</tr>
+<tr>
+<td><code>QINIU_CUSTOM_DOMAIN</code></td>
+<td>自定义域名, 可以忽略。</td>
+</tr>
+<tr>
+<td><code>GITHUB_CLIENT_ID</code></td>
+<td>Github client_id, 如果你允许Github用户注册你的站点,请填写, 否则忽略。</td>
+</tr>
+<tr>
+<td><code>GITHUB_CLIENT_SECRET</code></td>
+<td>Github client_secret, 同上。</td>
+</tr>
+<tr>
+<td><code>GITHUB_REDIRECT</code></td>
+<td>Github redirect, 同上。</td>
+</tr>
+<tr>
+<td><code>ALGOLIA_APP_ID</code></td>
+<td>如果你使用<a href="https://www.algolia.com/" target="_blank" rel="external">algolia</a>的搜索服务, 请填写, <strong> 否则,注释掉<code>App\Post</code>的use Searchable </strong>。</td>
+</tr>
+<tr>
+<td><code>ALGOLIA_SECRET</code></td>
+<td>同上。</td>
+</tr>
+<tr>
+<td> <code>CACHE_DRIVER</code></td>
+<td>默认为Redis, 建议为Redis。</td>
+</tr>
+<tr>
+<td> <code>SESSION_DRIVER</code></td>
+<td>默认为Redis, 建议为Redis。</td>
+</tr>
+<tr>
+<td> <code>QUEUE_DRIVER</code></td>
+<td>默认为Redis, 建议为Redis。</td>
 </tr>
 </tbody>
 </table>
-<h3 id="Pagination" class="article-heading"><a href="#Pagination" class="headerlink" title="Pagination"></a>Pagination<a class="article-anchor" href="#Pagination" aria-hidden="true"></a></h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-<th>Default</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>per_page</code></td>
-<td>The amount of the posts displayed on a single page. <code>0</code> disables pagination</td>
-<td><code>10</code></td>
-</tr>
-<tr>
-<td><code>pagination_dir</code></td>
-<td>Pagination directory</td>
-<td><code>page</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="Extensions" class="article-heading"><a href="#Extensions" class="headerlink" title="Extensions"></a>Extensions<a class="article-anchor" href="#Extensions" aria-hidden="true"></a></h3><table>
-<thead>
-<tr>
-<th>Setting</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>theme</code></td>
-<td>Theme name. <code>false</code> disables theming</td>
-</tr>
-<tr>
-<td><code>deploy</code></td>
-<td>Deployment setting</td>
-</tr>
-</tbody>
-</table>
+<h2 id="config文件" class="article-heading"><a href="#config文件" class="headerlink" title="config文件"></a>config文件<a class="article-anchor" href="#config文件" aria-hidden="true"></a></h2><p><code>config\social</code>文件存储了你的社交信息, 你可以自行按照样例修改。其中<code>fa</code>指的是fontawesome图标类名。</p>
+<h2 id="迁移" class="article-heading"><a href="#迁移" class="headerlink" title="迁移"></a>迁移<a class="article-anchor" href="#迁移" aria-hidden="true"></a></h2><p>按需配置好你的<code>.env</code>文件之后， 运行迁移：<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ php artisan migrate</div></pre></td></tr></table></figure></p>
+<p>这会生成12个数据表:</p>
+<ol>
+<li><code>users</code>   //用户表</li>
+<li><code>posts</code>  // 文章表</li>
+<li><code>categories</code>  分类表</li>
+<li><code>tags</code>  //标签表</li>
+<li><code>post_tag</code>  //文章，标签 多对多关系表</li>
+<li><code>pages</code>  // 页面，比如我的about</li>
+<li><code>files</code> //存储文件的key</li>
+<li><code>comments</code>  //评论表</li>
+<li><code>maps</code>   //存储键值对，比如网站的设置信息等</li>
+<li><code>password_resets</code>   //Reset密码表</li>
+<li><code>failed_jobs</code>   //失败队列表</li>
+<li><code>notifications</code>   //通知表</li>
+<li><code>configurations</code>   //配置信息表</li>
+</ol>
+<p>‘failed_jobs’ 只有在发送邮件和更新<a href="https://www.algolia.com/" target="_blank" rel="external">algolia</a>索引的时候用到， 如果你既不用邮提醒，也不用搜索功能， 请忽略。</p>
+<h2 id="填充数据" class="article-heading"><a href="#填充数据" class="headerlink" title="填充数据"></a>填充数据<a class="article-anchor" href="#填充数据" aria-hidden="true"></a></h2><p>如果是在本地环境， 可以用假数据填充让你的博客不那么空荡荡， 方便测试：<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ php artisan db:seed</div></pre></td></tr></table></figure></p>
+<h2 id="SuperVisor" class="article-heading"><a href="#SuperVisor" class="headerlink" title="SuperVisor"></a>SuperVisor<a class="article-anchor" href="#SuperVisor" aria-hidden="true"></a></h2><p>如果你使用了邮件功能， 那么你应该使用SuperVisor来开启队列发送邮件， 否则发送邮件将阻塞你的程序。<br>windown用户不支持， 你可以使用<code>php artisan queue:work</code>,监控队列，但命令行已关闭， 你的监控也会停止，你可以使用官方的Homestead来开发。</p>
+<p>Linux用户：<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">$ sudo apt-get install supervisor</div></pre></td></tr></table></figure></p>
+<p>如果你使用了邮件通知功能，需要这一步的配置， 否则可以跳过。</p>
+<p>Supervisor 的配置文件一般是放在 /etc/supervisor/conf.d 目录下，在这个目录中你可以创建任意数量的配置文件来要求 Supervisor 怎样监控你的进程。例如我们创建一个 laravel-worker.conf 来启动与监控一个 queue:work 进程：</p>
+<p>这里采用我的配置做示例：<br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">[program:blog-worker]</div><div class="line">command                 = php /var/www/xblog/artisan queue:work --tries=3</div><div class="line">directory               = /var/www/xblog</div><div class="line">process_name            = %(program_name)s_%(process_num)s</div><div class="line">numprocs                = 3</div><div class="line">autostart               = true</div><div class="line">autorestart             = true</div><div class="line">stdout_logfile          = /var/www/xblog/storage/logs/blog-worker.log</div><div class="line">stdout_logfile_maxbytes = 10MB</div><div class="line">stderr_logfile          = /var/www/xblog/storage/logs/blog-worker-error.log</div><div class="line">stderr_logfile_maxbytes = 10MB</div></pre></td></tr></table></figure></p>
+<p>这个例子里的 numprocs 命令会要求 Supervisor 运行并监控 3 个 queue:work 进程，并且在它们运行失败后重新启动。</p>
+<p>当这个配置文件被创建后，你需要更新 Supervisor 的配置，并用以下命令来启动该进程：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">sudo supervisorctl reread</div><div class="line"></div><div class="line">sudo supervisorctl update</div><div class="line"></div><div class="line">sudo supervisorctl start blog-worker:*</div></pre></td></tr></table></figure>
+<p>更多有关 Supervisor 的设置与使用，请参考 <a href="http://supervisord.org/index.html" target="_blank" rel="external">Supervisor 官方文档</a>。</p>
 
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2016-09-29T08:55:29.000Z" itemprop="dateModified">Last updated: 2016-09-29</time>
-                <a href="setup.html" class="article-footer-prev" title="Setup"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="commands.html" class="article-footer-next" title="Commands"><span>Next</span><i class="fa fa-chevron-right"></i></a>
+                <time class="article-footer-updated" datetime="2016-10-09T09:48:36.000Z" itemprop="dateModified">Last updated: 2016-10-09</time>
+                <a href="setup.html" class="article-footer-prev" title="Setup"><i class="fa fa-chevron-left"></i><span>Prev</span></a><a href="admin.html" class="article-footer-next" title="Admin"><span>Next</span><i class="fa fa-chevron-right"></i></a>
               </footer>
               
 <section id="comments">
@@ -453,7 +248,7 @@ auth">
 <script>
   var disqus_shortname = 'lufficc-github-io';
   var disqus_url = 'https://lufficc.github.io/Xblog/en/docs/configuration.html';
-  var disqus_title = "Configuration";
+  var disqus_title = "配置";
   var disqus_config = function(){
     this.language = 'en';
   };
@@ -469,14 +264,14 @@ auth">
           <aside id="article-toc" role="navigation">
             <div id="article-toc-inner">
               <strong class="sidebar-title">Contents</strong>
-              <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Site"><span class="toc-text">Site</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#URL"><span class="toc-text">URL</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Directory"><span class="toc-text">Directory</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Writing"><span class="toc-text">Writing</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Category-amp-Tag"><span class="toc-text">Category & Tag</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Date-Time-format"><span class="toc-text">Date / Time format</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Pagination"><span class="toc-text">Pagination</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Extensions"><span class="toc-text">Extensions</span></a></li></ol>
+              <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#env"><span class="toc-text">.env</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#config文件"><span class="toc-text">config文件</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#迁移"><span class="toc-text">迁移</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#填充数据"><span class="toc-text">填充数据</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#SuperVisor"><span class="toc-text">SuperVisor</span></a></li></ol>
               <a href="#" id="article-toc-top">Back to Top</a>
             </div>
           </aside>
         </div>
       </article>
       <aside id="sidebar" role="navigation">
-  <div class="inner"><strong class="sidebar-title">Getting Started</strong><a href="index.html" class="sidebar-link">Overview</a><a href="setup.html" class="sidebar-link">Setup</a><a href="configuration.html" class="sidebar-link current">Configuration</a><a href="commands.html" class="sidebar-link">Commands</a><a href="migration.html" class="sidebar-link">Migration</a><strong class="sidebar-title">Basic Usage</strong><a href="front-matter.html" class="sidebar-link">Front-matter</a><a href="tag-plugins.html" class="sidebar-link">Tag Plugins</a><a href="asset-folders.html" class="sidebar-link">Asset Folders</a><a href="data-files.html" class="sidebar-link">Data Files</a><a href="server.html" class="sidebar-link">Server</a><a href="generating.html" class="sidebar-link">Generating</a><a href="deployment.html" class="sidebar-link">Deployment</a><strong class="sidebar-title">Customization</strong><a href="permalinks.html" class="sidebar-link">Permalinks</a><a href="themes.html" class="sidebar-link">Themes</a><a href="templates.html" class="sidebar-link">Templates</a><a href="variables.html" class="sidebar-link">Variables</a><a href="helpers.html" class="sidebar-link">Helpers</a><a href="internationalization.html" class="sidebar-link">Internationalization (i18n)</a><a href="plugins.html" class="sidebar-link">Plugins</a><strong class="sidebar-title">Miscellaneous</strong><a href="troubleshooting.html" class="sidebar-link">Troubleshooting</a><a href="contributing.html" class="sidebar-link">Contributing</a></div>
+  <div class="inner"><strong class="sidebar-title">Getting Started</strong><a href="index.html" class="sidebar-link">Overview</a><a href="setup.html" class="sidebar-link">Setup</a><a href="configuration.html" class="sidebar-link current">Configuration</a><a href="admin.html" class="sidebar-link">Admin</a></div>
 </aside>
     </div>
   </div>
@@ -505,7 +300,7 @@ auth">
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">Getting Started</strong><a href="index.html" class="mobile-nav-link">Overview</a><a href="setup.html" class="mobile-nav-link">Setup</a><a href="configuration.html" class="mobile-nav-link current">Configuration</a><a href="commands.html" class="mobile-nav-link">Commands</a><a href="migration.html" class="mobile-nav-link">Migration</a><strong class="mobile-nav-title">Basic Usage</strong><a href="front-matter.html" class="mobile-nav-link">Front-matter</a><a href="tag-plugins.html" class="mobile-nav-link">Tag Plugins</a><a href="asset-folders.html" class="mobile-nav-link">Asset Folders</a><a href="data-files.html" class="mobile-nav-link">Data Files</a><a href="server.html" class="mobile-nav-link">Server</a><a href="generating.html" class="mobile-nav-link">Generating</a><a href="deployment.html" class="mobile-nav-link">Deployment</a><strong class="mobile-nav-title">Customization</strong><a href="permalinks.html" class="mobile-nav-link">Permalinks</a><a href="themes.html" class="mobile-nav-link">Themes</a><a href="templates.html" class="mobile-nav-link">Templates</a><a href="variables.html" class="mobile-nav-link">Variables</a><a href="helpers.html" class="mobile-nav-link">Helpers</a><a href="internationalization.html" class="mobile-nav-link">Internationalization (i18n)</a><a href="plugins.html" class="mobile-nav-link">Plugins</a><strong class="mobile-nav-title">Miscellaneous</strong><a href="troubleshooting.html" class="mobile-nav-link">Troubleshooting</a><a href="contributing.html" class="mobile-nav-link">Contributing</a>
+      <strong class="mobile-nav-title">Getting Started</strong><a href="index.html" class="mobile-nav-link">Overview</a><a href="setup.html" class="mobile-nav-link">Setup</a><a href="configuration.html" class="mobile-nav-link current">Configuration</a><a href="admin.html" class="mobile-nav-link">Admin</a>
     
   </div>
   <div id="mobile-lang-select-wrap">

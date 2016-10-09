@@ -51,7 +51,7 @@
 <meta property="og:description" content="安装 Xblog 只需几分钟时间，若您在安装过程中遇到问题或无法找到解决方式，请提交问题，我会尽力解决您的问题。
 安装前提Xblog就是一个普通的基于laravel5.3的应用程序。所以你的电脑要拥有运行laravel应用程序的环境, 点击这里查看安装教程。
 假设你已经拥有了必备的条件电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 composer 即可完成 Xblog 的安装。如果您的">
-<meta property="og:updated_time" content="2016-10-07T02:12:17.000Z">
+<meta property="og:updated_time" content="2016-10-09T08:28:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="安装">
 <meta name="twitter:description" content="安装 Xblog 只需几分钟时间，若您在安装过程中遇到问题或无法找到解决方式，请提交问题，我会尽力解决您的问题。
@@ -117,13 +117,14 @@
 <h3 id="安装前提" class="article-heading"><a href="#安装前提" class="headerlink" title="安装前提"></a>安装前提<a class="article-anchor" href="#安装前提" aria-hidden="true"></a></h3><p>Xblog就是一个普通的基于laravel5.3的应用程序。所以你的电脑要拥有运行laravel应用程序的环境, 点击<a href="https://laravel.com/docs/5.3/installation" target="_blank" rel="external">这里</a>查看安装教程。</p>
 <p>假设你已经拥有了必备的条件电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 composer 即可完成 Xblog 的安装。<br>如果您的电脑中已经安装上述必备程序，那么恭喜您！接下来只需要使用 composer 即可完成 Xblog 的安装。</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><div class="line">$ composer require lufficc/xblog</div></pre></td></tr></table></figure>
-<p>有一些建议的可选的依赖:</p>
+<p>有一些建议的可选的软件:</p>
 <ul>
 <li><p>Redis: Cache, Session, Queue 要用到, 这可以大大加速你的应用程序。</p>
 </li>
 <li><p>Supervisor: 如果你用到了邮件提醒, 那么将使用Supervisor来开启队列发送邮件。你可以暂时忽略。</p>
 </li>
 </ul>
+<p>当然,你也可以不用做任何配置,默认是关闭缓存和邮件提醒的。</p>
 <p>如果你做本地开发, 强烈建议使用官方的<a href="https://laravel.com/docs/5.3/homestead" target="_blank" rel="external">Homestead</a>进行开发, 它已经包括了Xblog的所有依赖软件。</p>
 <h3 id="安装-Redis" class="article-heading"><a href="#安装-Redis" class="headerlink" title="安装 Redis"></a>安装 Redis<a class="article-anchor" href="#安装-Redis" aria-hidden="true"></a></h3><ul>
 <li>Windows：下载并安装 <a href="https://git-scm.com/download/win" target="_blank" rel="external">git</a>.</li>
@@ -136,7 +137,7 @@
 <h3 id="注意-如果你使用了Homestead进行开发-上述依赖已经存在-不用安装。" class="article-heading"><a href="#注意-如果你使用了Homestead进行开发-上述依赖已经存在-不用安装。" class="headerlink" title="注意, 如果你使用了Homestead进行开发, 上述依赖已经存在, 不用安装。"></a>注意, 如果你使用了<a href="https://laravel.com/docs/5.3/homestead" target="_blank" rel="external">Homestead</a>进行开发, 上述依赖已经存在, 不用安装。<a class="article-anchor" href="#注意-如果你使用了Homestead进行开发-上述依赖已经存在-不用安装。" aria-hidden="true"></a></h3>
               </div>
               <footer class="article-footer">
-                <time class="article-footer-updated" datetime="2016-10-07T02:12:17.000Z" itemprop="dateModified">上次更新：2016-10-07</time>
+                <time class="article-footer-updated" datetime="2016-10-09T08:28:52.000Z" itemprop="dateModified">上次更新：2016-10-09</time>
                 <a href="index.html" class="article-footer-prev" title="概述"><i class="fa fa-chevron-left"></i><span>上一页</span></a><a href="configuration.html" class="article-footer-next" title="配置"><span>下一页</span><i class="fa fa-chevron-right"></i></a>
               </footer>
               
@@ -169,7 +170,7 @@
         </div>
       </article>
       <aside id="sidebar" role="navigation">
-  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><a href="setup.html" class="sidebar-link current">安装</a><a href="configuration.html" class="sidebar-link">配置</a><a href="commands.html" class="sidebar-link">命令</a><a href="migration.html" class="sidebar-link">迁移</a><strong class="sidebar-title">基本操作</strong><a href="front-matter.html" class="sidebar-link">Front-matter</a><a href="tag-plugins.html" class="sidebar-link">标签插件</a><a href="asset-folders.html" class="sidebar-link">资源文件夹</a><a href="data-files.html" class="sidebar-link">数据文件夹</a><a href="server.html" class="sidebar-link">服务器</a><a href="generating.html" class="sidebar-link">生成器</a><a href="deployment.html" class="sidebar-link">部署</a><strong class="sidebar-title">自定义</strong><a href="permalinks.html" class="sidebar-link">永久链接</a><a href="themes.html" class="sidebar-link">主题</a><a href="templates.html" class="sidebar-link">模版</a><a href="variables.html" class="sidebar-link">变量</a><a href="helpers.html" class="sidebar-link">辅助函数</a><a href="internationalization.html" class="sidebar-link">国际化 (i18n)</a><a href="plugins.html" class="sidebar-link">插件</a><strong class="sidebar-title">其他</strong><a href="troubleshooting.html" class="sidebar-link">问题解答</a><a href="contributing.html" class="sidebar-link">贡献</a></div>
+  <div class="inner"><strong class="sidebar-title">开始使用</strong><a href="index.html" class="sidebar-link">概述</a><a href="setup.html" class="sidebar-link current">安装</a><a href="configuration.html" class="sidebar-link">配置</a><a href="admin.html" class="sidebar-link">后台</a></div>
 </aside>
     </div>
   </div>
@@ -198,7 +199,7 @@
       </li>
     </ul>
     
-      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><a href="setup.html" class="mobile-nav-link current">安装</a><a href="configuration.html" class="mobile-nav-link">配置</a><a href="commands.html" class="mobile-nav-link">命令</a><a href="migration.html" class="mobile-nav-link">迁移</a><strong class="mobile-nav-title">基本操作</strong><a href="front-matter.html" class="mobile-nav-link">Front-matter</a><a href="tag-plugins.html" class="mobile-nav-link">标签插件</a><a href="asset-folders.html" class="mobile-nav-link">资源文件夹</a><a href="data-files.html" class="mobile-nav-link">数据文件夹</a><a href="server.html" class="mobile-nav-link">服务器</a><a href="generating.html" class="mobile-nav-link">生成器</a><a href="deployment.html" class="mobile-nav-link">部署</a><strong class="mobile-nav-title">自定义</strong><a href="permalinks.html" class="mobile-nav-link">永久链接</a><a href="themes.html" class="mobile-nav-link">主题</a><a href="templates.html" class="mobile-nav-link">模版</a><a href="variables.html" class="mobile-nav-link">变量</a><a href="helpers.html" class="mobile-nav-link">辅助函数</a><a href="internationalization.html" class="mobile-nav-link">国际化 (i18n)</a><a href="plugins.html" class="mobile-nav-link">插件</a><strong class="mobile-nav-title">其他</strong><a href="troubleshooting.html" class="mobile-nav-link">问题解答</a><a href="contributing.html" class="mobile-nav-link">贡献</a>
+      <strong class="mobile-nav-title">开始使用</strong><a href="index.html" class="mobile-nav-link">概述</a><a href="setup.html" class="mobile-nav-link current">安装</a><a href="configuration.html" class="mobile-nav-link">配置</a><a href="admin.html" class="mobile-nav-link">后台</a>
     
   </div>
   <div id="mobile-lang-select-wrap">
